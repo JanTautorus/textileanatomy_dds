@@ -8,7 +8,9 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
-    "brightway25"
+    "brightway25",
+    "scikit-learn",
+
 ]
 
 [tool.setuptools]
