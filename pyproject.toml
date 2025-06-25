@@ -1,0 +1,19 @@
+[project]
+name = "textileanatomy_dds"
+version = "0.1.0"
+description = "Textile anatomy case study for summer school"
+authors = [
+    { name="Your Name", email="you@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "brightway25"
+]
+
+[tool.setuptools]
+packages = ["textileanatomy_dds"]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
