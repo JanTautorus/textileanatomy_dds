@@ -10,7 +10,6 @@ requires-python = ">=3.10"
 dependencies = [
     "brightway25",
     "scikit-learn",
-
 ]
 
 [tool.setuptools]
